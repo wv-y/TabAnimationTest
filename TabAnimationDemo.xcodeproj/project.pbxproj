@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D1AF13428A35CBB00F709CE /* UICollectionView+MyHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AF13328A35CBB00F709CE /* UICollectionView+MyHook.m */; };
+		5D1AF13728A35E1700F709CE /* UICollectionView+MyHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AF13628A35E1700F709CE /* UICollectionView+MyHook.m */; };
 		5D37C6932723EACF00D7A086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37C6922723EACF00D7A086 /* AppDelegate.m */; };
 		5D37C6962723EACF00D7A086 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37C6952723EACF00D7A086 /* SceneDelegate.m */; };
 		5D37C6992723EACF00D7A086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37C6982723EACF00D7A086 /* ViewController.m */; };
@@ -44,8 +44,8 @@
 
 /* Begin PBXFileReference section */
 		50AE2EB7081509A4349BC475 /* Pods-TabAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-TabAnimationDemo/Pods-TabAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5D1AF13228A35CBB00F709CE /* UICollectionView+MyHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+MyHook.h"; sourceTree = "<group>"; };
-		5D1AF13328A35CBB00F709CE /* UICollectionView+MyHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+MyHook.m"; sourceTree = "<group>"; };
+		5D1AF13528A35E1700F709CE /* UICollectionView+MyHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+MyHook.h"; sourceTree = "<group>"; };
+		5D1AF13628A35E1700F709CE /* UICollectionView+MyHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+MyHook.m"; sourceTree = "<group>"; };
 		5D37C68E2723EACF00D7A086 /* TabAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37C6912723EACF00D7A086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D37C6922723EACF00D7A086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,16 +108,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D1AF13128A35CBB00F709CE /* hook */ = {
-			isa = PBXGroup;
-			children = (
-				5D1AF13228A35CBB00F709CE /* UICollectionView+MyHook.h */,
-				5D1AF13328A35CBB00F709CE /* UICollectionView+MyHook.m */,
-			);
-			name = hook;
-			path = "../../../Downloads/形状结合_slices (1)/hook";
-			sourceTree = "<group>";
-		};
 		5D37C6852723EACF00D7A086 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +133,8 @@
 		5D37C6902723EACF00D7A086 /* TabAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5D1AF13128A35CBB00F709CE /* hook */,
+				5D1AF13528A35E1700F709CE /* UICollectionView+MyHook.h */,
+				5D1AF13628A35E1700F709CE /* UICollectionView+MyHook.m */,
 				5D37C70F2724008500D7A086 /* MyTestCell.h */,
 				5D37C70E2724008500D7A086 /* MyTestCell.m */,
 				5D37C6972723EACF00D7A086 /* ViewController.h */,
@@ -410,8 +401,8 @@
 				5D37C6992723EACF00D7A086 /* ViewController.m in Sources */,
 				5D37C6D32723F49F00D7A086 /* TipsView.m in Sources */,
 				5D37C7102724008500D7A086 /* MyTestCell.m in Sources */,
-				5D1AF13428A35CBB00F709CE /* UICollectionView+MyHook.m in Sources */,
 				5D37C6932723EACF00D7A086 /* AppDelegate.m in Sources */,
+				5D1AF13728A35E1700F709CE /* UICollectionView+MyHook.m in Sources */,
 				5D37C6A42723EAD100D7A086 /* main.m in Sources */,
 				5D37C6D02723F48200D7A086 /* ItemNameView.m in Sources */,
 				5D37C6962723EACF00D7A086 /* SceneDelegate.m in Sources */,
